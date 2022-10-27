@@ -13,7 +13,6 @@
   "keywords": [],
   "author": "Eric Brown <eric.brown8787@gmail.com> (https://github.com/ericbrown8787)",
   "license": "ISC",
-  "type": "module",
   "bugs": {
     "url": "https://github.com/RVCC-IDMX/node-server-ericbrown8787/issues"
   },
