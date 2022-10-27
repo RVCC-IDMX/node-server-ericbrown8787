@@ -1,3 +1,6 @@
+// Note: for step 14 there arent' any changes to commit
+// because we already have a package.json
+
 const http = require('http');
 const fs = require('fs');
 
