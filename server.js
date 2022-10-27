@@ -1,6 +1,3 @@
-// Note: for step 14 there arent' any changes to commit
-// because we already have a package.json
-
 const http = require('http');
 const fs = require('fs');
 
@@ -20,8 +17,8 @@ const server = http.createServer((req, res) => {
       res.statusCode = 200;
       break;
     default:
-      res.setHeader('Location', '/');
-      res.statusCode = 301;
+      path += '404.html';
+      res.statusCode = 404;
       break;
   }
 
